@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Variables">
+      <UniqueIdentifier>{b49e8b94-be44-4068-8717-65a14abdcf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions">
+      <UniqueIdentifier>{0a888d12-1b5c-4b39-849e-b878e857aeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{64cef75a-66e8-4e10-8947-877f3d74f643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Conditions">
+      <UniqueIdentifier>{bb72e6ff-9bca-4b59-95d3-9898209d36b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loops and Control Flow">
+      <UniqueIdentifier>{bfecf4f3-5d61-41be-8c86-a12195738747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pointers">
+      <UniqueIdentifier>{e5c965ad-3f78-4002-b471-607408ef9d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\References">
+      <UniqueIdentifier>{292a085f-f84f-44fb-a424-a25a815358f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{731ef4da-5654-4dc3-b9cb-93d52b4c6499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strings">
+      <UniqueIdentifier>{d6852272-9e07-444d-8f17-703258461aa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Conditions.cpp">
+      <Filter>Source Files\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Functions.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogHeader.cpp">
+      <Filter>Source Files\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainHeader.cpp">
+      <Filter>Source Files\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoops.cpp">
+      <Filter>Source Files\Loops and Control Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainVariables.cpp">
+      <Filter>Source Files\Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPointers.cpp">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainReferences.cpp">
+      <Filter>Source Files\References</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassesMain.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassVsStruct.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LogClass.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Source Files\Strings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\HeaderTutorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
